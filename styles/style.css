@@ -1,1 +1,88 @@
-/* место для вашего кода */
+.header {
+  margin: 92px 50px;
+  height: 109px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  /* To place the logo-image in the center of the header horizontally
+     and in the top vertically. */
+
+  position: relative;
+}
+
+.header__menu-list {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+
+  list-style: circle inside;
+}
+
+.header__menu-item {
+  /* To fix the space between marker and text. */
+
+  padding-left: 12px;
+}
+
+.header__menu-item_active {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.header__menu-item_active .header__menu-link {
+  text-decoration: none;
+}
+
+.header__menu-link {
+  color: #000;
+  font-size: 18px;
+  line-height: normal;
+
+  text-underline-offset: 0.3em;
+  white-space: nowrap;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+
+  /* To place the logo-image in the center of the header horizontally
+     and in the top vertically. */
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.header__contacts {
+  width: 240px;
+
+  color: #000;
+  font-size: 18px;
+  line-height: 135%;
+  font-style: normal;
+}
+
+.header__contacts-link {
+  text-underline-offset: 0.3em;
+  white-space: nowrap;
+}
+
+/* Cover is the jumbotron part. */
+
+.cover {
+}
+
+.lots {
+}
+
+.about {
+}
+
+.footer {
+}

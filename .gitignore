@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+.fuse_hidden*
+
+# Vim
+*.swp
+*.swn
+*.swo
+
+# JetBrains
+.idea/
+*.iml
+
+# Files
+*_
