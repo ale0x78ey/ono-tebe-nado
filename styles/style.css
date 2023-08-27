@@ -1,3 +1,17 @@
+.contacts {
+  width: 240px;
+
+  color: #000;
+  font-size: 18px;
+  line-height: 135%;
+  font-style: normal;
+}
+
+.contacts-link {
+  text-underline-offset: 0.3em;
+  white-space: nowrap;
+}
+
 .header {
   margin: 92px 50px;
   height: 109px;
@@ -59,20 +73,6 @@
   margin: auto;
 }
 
-.header__contacts {
-  width: 240px;
-
-  color: #000;
-  font-size: 18px;
-  line-height: 135%;
-  font-style: normal;
-}
-
-.header__contacts-link {
-  text-underline-offset: 0.3em;
-  white-space: nowrap;
-}
-
 /* Cover is the jumbotron part. */
 
 .cover {
@@ -85,4 +85,39 @@
 }
 
 .footer {
+  margin: 180px 50px 90px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+
+  /* TODO: remove background-color. */
+  background-color: #eee;
 }
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+
+  list-style: none;
+}
+
+.footer__menu-item {
+  text-align: center;
+}
+
+.footer__menu-item_active .footer__menu-link {
+  text-decoration: none;
+}
+
+.footer__menu-link {
+  color: #000;
+  font-size: 18px;
+  line-height: normal;
+
+  text-underline-offset: 0.3em;
+  white-space: nowrap;
+}
+
+/* TODO: rename classes as in the recoms. */
