@@ -128,6 +128,21 @@
   white-space: nowrap;
 }
 
-/* TODO: rename classes as in the recoms. */
+.footer__social-list {
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
 
-/* TODO: Convert logo to a with no href. */
+.footer__social-list-item {
+  width: 48px;
+  height: 48px;
+}
+
+.footer__social-icon {
+  width: 100%;
+  height: 100%;
+}
