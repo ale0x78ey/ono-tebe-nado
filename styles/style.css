@@ -83,7 +83,7 @@
 
 .cover {
   height: 757px;
-  margin: 92px 0 180px;
+  margin-bottom: 180px;
 
   background-image: url("/images/cover.jpg");
   background-repeat: no-repeat;
@@ -92,16 +92,59 @@
   /* To place the overlay on top of the cover. */
 
   position: relative;
+  z-index: -2;
 }
 
 .overlay {
   background-color: rgb(0 0 0 / 0.6);
-  z-index: 1;
 
   /* To place the overlay on top of the cover. */
 
   position: absolute;
   inset: 0;
+  z-index: -1;
+}
+
+.cover__title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  color: #fff;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 30px;
+}
+
+.aligned-text {
+  display: block;
+  height: 115px;
+  margin: 165px 50px 0px;
+  text-align: left;
+}
+
+.aligned-text_center {
+  display: block;
+  height: 100px;
+  margin: 0px 110px 0px 50px;
+  text-align: center;
+}
+
+.aligned-text_right {
+  display: block;
+  height: 100px;
+  margin: 0px 50px;
+  text-align: right;
+}
+
+.letter-spacing-extended {
+  letter-spacing: 60px;
+}
+
+.no-letter-spacing {
+  letter-spacing: normal;
 }
 
 .lots {
