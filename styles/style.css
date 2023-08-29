@@ -16,7 +16,7 @@
   background-color: #eee;
 }
 
-.header__links-list {
+.header__menu-list {
   display: flex;
   flex-direction: row;
   gap: 13px;
@@ -24,18 +24,18 @@
   list-style: circle inside;
 }
 
-.header__links-list-item {
+.header__menu-list-item {
   /* To fix the space between marker and text. */
 
   padding-left: 12px;
 }
 
-.header__links-list-item_no-bullit {
+.header__menu-list-item_no-bullit {
   padding-left: 0;
   list-style-type: none;
 }
 
-.header__link {
+.header__menu-link {
   color: #000;
   font-size: 18px;
   line-height: normal;
@@ -44,7 +44,7 @@
   white-space: nowrap;
 }
 
-.header__link_active {
+.header__menu-link_active {
   text-decoration: none;
 }
 
@@ -111,11 +111,11 @@
   list-style: none;
 }
 
-.footer__menu-item {
+.footer__menu-list-item {
   text-align: center;
 }
 
-.footer__menu-item_active .footer__menu-link {
+.footer__menu-link_active {
   text-decoration: none;
 }
 
