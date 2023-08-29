@@ -84,12 +84,27 @@
 /* Cover is the jumbotron part. */
 
 .cover {
+  height: 757px;
+  margin: 92px 0 180px;
+
+  /* TODO: remove background-color. */
+  background-color: #eee;
 }
 
 .lots {
+  height: 579px;
+  margin: 180px 50px 181px 50px;
+
+  /* TODO: remove background-color. */
+  background-color: #eee;
 }
 
 .about {
+  height: 487px;
+  margin: 181px 50px 180px 50px;
+
+  /* TODO: remove background-color. */
+  background-color: #eee;
 }
 
 .footer {
