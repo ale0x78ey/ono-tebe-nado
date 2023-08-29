@@ -81,14 +81,27 @@
   height: 100%;
 }
 
-/* Cover is the jumbotron part. */
-
 .cover {
   height: 757px;
   margin: 92px 0 180px;
 
-  /* TODO: remove background-color. */
-  background-color: #eee;
+  background-image: url("/images/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* To place the overlay on top of the cover. */
+
+  position: relative;
+}
+
+.overlay {
+  background-color: rgb(0 0 0 / 0.6);
+  z-index: 1;
+
+  /* To place the overlay on top of the cover. */
+
+  position: absolute;
+  inset: 0;
 }
 
 .lots {
