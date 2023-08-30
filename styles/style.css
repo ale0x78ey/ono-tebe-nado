@@ -25,7 +25,7 @@
 }
 
 .header__menu-list-item {
-  /* To fix the space between marker and text. */
+  /* To fix the space between a bullit and a text. */
 
   padding-left: 12px;
 }
@@ -178,11 +178,111 @@
 }
 
 .lots {
-  height: 579px;
+  min-height: 579px;
   margin: 180px 50px 181px 50px;
+}
 
-  /* TODO: remove background-color. */
-  background-color: #eee;
+.lots__heading {
+  margin-left: 40px;
+  margin-bottom: 27px;
+  color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.lots__card-list-item {
+  flex-basis: 430px;
+  min-height: 450px;
+  flex-grow: 1;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card_type_film {
+  background-image: url("/images/card-lot-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* To place the overlay on top of the background image. */
+
+  position: relative;
+  z-index: -2;
+}
+
+.card_type_book {
+  background-image: url("/images/card-lot-02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* To place the overlay on top of the background image. */
+
+  position: relative;
+  z-index: -2;
+}
+
+.card_type_picture {
+  background-image: url("/images/card-lot-03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* To place the overlay on top of the background image. */
+
+  position: relative;
+  z-index: -2;
+}
+
+.card__title {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-underline-offset: 0.14em;
+  text-transform: uppercase;
+  margin: 50px 40px 0px;
+}
+
+.card__text {
+  color: #fff;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  margin: 0px 40px 50px;
+}
+
+.lots__look-more-link {
+  display: block;
+  color: #000;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 2px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  text-underline-offset: 0.3em;
 }
 
 .about {
@@ -246,3 +346,5 @@
   width: 100%;
   height: 100%;
 }
+
+/* TODO: Is logo a block? */
