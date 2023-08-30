@@ -38,7 +38,6 @@
 .header__menu-link {
   color: #000;
   font-size: 18px;
-  line-height: normal;
 
   text-underline-offset: 0.3em;
   white-space: nowrap;
@@ -147,6 +146,37 @@
   letter-spacing: normal;
 }
 
+.cover__description {
+  display: flex;
+  flex-direction: row;
+  gap: 78px;
+  align-items: center;
+  justify-content: end;
+  margin: 135px 50px 50px;
+}
+
+.cover__description-text {
+  color: #fff;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  word-spacing: 18px;
+}
+
+.bet-button {
+  height: 52px;
+  width: 257px;
+  border: 1px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-word-spacing {
+  word-spacing: normal;
+}
+
 .lots {
   height: 579px;
   margin: 180px 50px 181px 50px;
@@ -193,7 +223,6 @@
 .footer__menu-link {
   color: #000;
   font-size: 18px;
-  line-height: normal;
 
   text-underline-offset: 0.3em;
   white-space: nowrap;
