@@ -11,9 +11,6 @@
      and in the top vertically. */
 
   position: relative;
-
-  /* TODO: remove background-color. */
-  background-color: #eee;
 }
 
 .header__menu-list {
@@ -61,7 +58,7 @@
 }
 
 .header__logo {
-  /* display: block; */
+  display: block;
   width: 148px;
   height: 105px;
 
@@ -346,5 +343,3 @@
   width: 100%;
   height: 100%;
 }
-
-/* TODO: Is logo a block? */
