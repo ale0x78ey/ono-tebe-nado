@@ -285,9 +285,42 @@
 .about {
   height: 487px;
   margin: 181px 50px 180px 50px;
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: "about_logo about_column about_column";
+}
+
+.about__logo {
+  grid-area: about_logo;
+  align-self: start;
+  justify-self: center;
+
+  height: 240px;
+  width: 240px;
+  border-radius: 50%;
+  background-color: #000;
+
+  /* To center the about_logo image. */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about__logo-image {
+  display: block;
+  height: 114px;
+  width: 148px;
+  margin: auto;
+}
+
+.about_column {
+  grid-area: about_column;
 
   /* TODO: remove background-color. */
-  background-color: #eee;
+
+  background-color: #000;
 }
 
 .footer {
