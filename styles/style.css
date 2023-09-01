@@ -114,7 +114,7 @@
   align-items: center;
 
   height: 115px;
-  margin: 165px 50px 0px;
+  margin: 165px 50px 0;
 }
 
 .aligned-text_center {
@@ -133,7 +133,7 @@
   align-items: center;
 
   height: 100px;
-  margin: 0px 50px;
+  margin: 0 50px;
 }
 
 .letter-spacing-extended {
@@ -261,7 +261,7 @@
   text-decoration-line: underline;
   text-underline-offset: 0.14em;
   text-transform: uppercase;
-  margin: 50px 40px 0px;
+  margin: 50px 40px 0;
 }
 
 .card__text {
@@ -270,7 +270,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
-  margin: 0px 40px 50px;
+  margin: 0 40px 50px;
 }
 
 .lots__look-more-link {
