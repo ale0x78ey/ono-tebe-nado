@@ -16,19 +16,12 @@
 .header__menu-list {
   display: flex;
   flex-direction: row;
-  gap: 13px;
+  gap: 12px;
 
   list-style: circle inside;
 }
 
-.header__menu-list-item {
-  /* To fix the space between a bullit and a text. */
-
-  padding-left: 12px;
-}
-
 .header__menu-list-item_no-bullit {
-  padding-left: 0;
   list-style-type: none;
 }
 
@@ -36,7 +29,7 @@
   color: #000;
   font-size: 18px;
 
-  text-underline-offset: 0.3em;
+  text-underline-offset: 0.25em;
   white-space: nowrap;
 }
 
@@ -53,7 +46,7 @@
 }
 
 .address_link {
-  text-underline-offset: 0.3em;
+  text-underline-offset: 0.25em;
   white-space: nowrap;
 }
 
@@ -116,24 +109,31 @@
 }
 
 .aligned-text {
-  display: block;
+  display: inline-flex;
+  justify-content: start;
+  align-items: center;
+
   height: 115px;
   margin: 165px 50px 0px;
-  text-align: left;
 }
 
 .aligned-text_center {
-  display: block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
   height: 100px;
-  margin: 0px 110px 0px 50px;
-  text-align: center;
+  width: 1280px;
+  margin-left: 80px;
 }
 
 .aligned-text_right {
-  display: block;
+  display: inline-flex;
+  justify-content: end;
+  align-items: center;
+
   height: 100px;
   margin: 0px 50px;
-  text-align: right;
 }
 
 .letter-spacing-extended {
@@ -160,7 +160,7 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
-  word-spacing: 18px;
+  word-spacing: 0.85em;
 }
 
 .bet-button {
@@ -283,7 +283,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  text-underline-offset: 0.3em;
+  text-underline-offset: 0.25em;
 }
 
 .about {
@@ -321,6 +321,8 @@
 
 .about_column {
   grid-area: about_column;
+  align-self: end;
+  height: 388px;
 }
 
 .about__title {
@@ -336,7 +338,7 @@
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 27px;
 
   color: #000;
   font-size: 20px;
@@ -373,7 +375,7 @@
   color: #000;
   font-size: 18px;
 
-  text-underline-offset: 0.3em;
+  text-underline-offset: 0.25em;
   white-space: nowrap;
 }
 
