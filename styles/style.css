@@ -1,7 +1,4 @@
 .header {
-  /* To place the logo-image in the center of the header horizontally
-     and in the top vertically. */
-
   position: relative;
   display: flex;
   flex-direction: row;
@@ -47,9 +44,6 @@
 }
 
 .header__logo {
-  /* To place the logo-image in the center of the header horizontally
-     and in the top vertically. */
-
   position: absolute;
   top: 0;
   right: 0;
@@ -66,8 +60,6 @@
 }
 
 .cover {
-  /* To place the overlay on top of the cover background image. */
-
   position: relative;
   z-index: -2;
   height: 757px;
@@ -78,8 +70,6 @@
 }
 
 .overlay {
-  /* To place the overlay on top of the cover background image. */
-
   position: absolute;
   inset: 0;
   z-index: -1;
@@ -207,8 +197,6 @@
 }
 
 .card_type_film {
-  /* To place the overlay on top of the background image. */
-
   position: relative;
   z-index: -2;
   background-image: url('../images/card-lot-01.jpg');
@@ -217,8 +205,6 @@
 }
 
 .card_type_book {
-  /* To place the overlay on top of the background image. */
-
   position: relative;
   z-index: -2;
   background-image: url('../images/card-lot-02.jpg');
@@ -227,8 +213,6 @@
 }
 
 .card_type_picture {
-  /* To place the overlay on top of the background image. */
-
   position: relative;
   z-index: -2;
   background-image: url('../images/card-lot-03.jpg');
@@ -280,8 +264,6 @@
 }
 
 .about__logo {
-  /* To center the about_logo image in the black circle. */
-
   display: flex;
   grid-area: about_logo;
   justify-content: center;
