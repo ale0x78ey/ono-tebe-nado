@@ -11,5 +11,8 @@
 .idea/
 *.iml
 
+# JS
+node_modules/
+
 # Files
 *_

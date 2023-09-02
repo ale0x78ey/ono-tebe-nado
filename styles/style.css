@@ -1,7 +1,6 @@
 .header {
   margin: 92px 50px;
   height: 109px;
-
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -17,7 +16,6 @@
   display: flex;
   flex-direction: row;
   gap: 12px;
-
   list-style: circle inside;
 }
 
@@ -28,7 +26,6 @@
 .header__menu-link {
   color: #000;
   font-size: 18px;
-
   text-underline-offset: 0.25em;
   white-space: nowrap;
 }
@@ -73,7 +70,6 @@
 .cover {
   height: 757px;
   margin-bottom: 180px;
-
   background-image: url('../images/cover.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -85,7 +81,7 @@
 }
 
 .overlay {
-  background-color: rgb(0 0 0 / 0.6);
+  background-color: rgb(0 0 0 / 60%);
 
   /* To place the overlay on top of the cover. */
 
@@ -98,7 +94,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-
   color: #fff;
   font-size: 100px;
   font-style: normal;
@@ -112,7 +107,6 @@
   display: inline-flex;
   justify-content: start;
   align-items: center;
-
   height: 115px;
   margin: 165px 50px 0;
 }
@@ -131,7 +125,6 @@
   display: inline-flex;
   justify-content: end;
   align-items: center;
-
   height: 100px;
   margin: 0 50px;
 }
@@ -194,10 +187,9 @@
 
 .lots__card-list {
   display: flex;
-  flex-direction: row;
   list-style: none;
   gap: 25px;
-  flex-wrap: wrap;
+  flex-flow: wrap;
 }
 
 .lots__card-list-item {
@@ -299,7 +291,6 @@
   grid-area: about_logo;
   align-self: start;
   justify-self: center;
-
   height: 240px;
   width: 240px;
   border-radius: 50%;
@@ -339,7 +330,6 @@
   display: flex;
   flex-direction: column;
   gap: 27px;
-
   color: #000;
   font-size: 20px;
   font-style: normal;
@@ -349,7 +339,6 @@
 
 .footer {
   margin: 180px 50px 90px;
-
   display: flex;
   flex-direction: row;
   align-items: start;
@@ -359,7 +348,6 @@
 .footer__menu-list {
   display: flex;
   flex-direction: column;
-
   list-style: none;
 }
 
