@@ -1,15 +1,14 @@
 .header {
-  margin: 92px 50px;
-  height: 109px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-
   /* To place the logo-image in the center of the header horizontally
      and in the top vertically. */
 
   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 109px;
+  margin: 92px 50px;
 }
 
 .header__menu-list {
@@ -26,8 +25,8 @@
 .header__menu-link {
   color: #000;
   font-size: 18px;
-  text-underline-offset: 0.25em;
   white-space: nowrap;
+  text-underline-offset: 0.25em;
 }
 
 .header__menu-link_active {
@@ -36,29 +35,28 @@
 
 .address {
   width: 240px;
-  font-size: 18px;
-  font-style: normal;
-  line-height: 135%;
   color: #000;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 135%;
 }
 
 .address_link {
-  text-underline-offset: 0.25em;
   white-space: nowrap;
+  text-underline-offset: 0.25em;
 }
 
 .header__logo {
-  display: block;
-  width: 148px;
-  height: 105px;
-
   /* To place the logo-image in the center of the header horizontally
      and in the top vertically. */
 
   position: absolute;
   top: 0;
-  left: 0;
   right: 0;
+  left: 0;
+  display: block;
+  width: 148px;
+  height: 105px;
   margin: auto;
 }
 
@@ -68,26 +66,24 @@
 }
 
 .cover {
-  height: 757px;
-  margin-bottom: 180px;
-  background-image: url('../images/cover.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-
   /* To place the overlay on top of the cover. */
 
   position: relative;
   z-index: -2;
+  height: 757px;
+  margin-bottom: 180px;
+  background-image: url('../images/cover.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .overlay {
-  background-color: rgb(0 0 0 / 60%);
-
   /* To place the overlay on top of the cover. */
 
   position: absolute;
   inset: 0;
   z-index: -1;
+  background-color: rgb(0 0 0 / 60%);
 }
 
 .cover__title {
@@ -95,12 +91,12 @@
   flex-direction: column;
   gap: 20px;
   color: #fff;
-  font-size: 100px;
-  font-style: normal;
   font-weight: 700;
+  font-style: normal;
+  font-size: 100px;
   line-height: normal;
-  text-transform: uppercase;
   letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 .aligned-text {
@@ -115,9 +111,8 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-
-  height: 100px;
   width: 1280px;
+  height: 100px;
   margin-left: 80px;
 }
 
@@ -141,28 +136,28 @@
   display: flex;
   flex-direction: row;
   gap: 78px;
-  align-items: center;
   justify-content: end;
+  align-items: center;
   margin: 135px 50px 50px;
 }
 
 .cover__description-text {
   color: #fff;
-  font-size: 22px;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
   line-height: normal;
   text-transform: uppercase;
   word-spacing: 0.85em;
 }
 
 .bet-button {
-  height: 52px;
-  width: 257px;
-  border: 1px solid #fff;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  width: 257px;
+  height: 52px;
+  border: 1px solid #fff;
 }
 
 .no-word-spacing {
@@ -171,31 +166,31 @@
 
 .lots {
   min-height: 579px;
-  margin: 180px 50px 181px 50px;
+  margin: 180px 50px 181px;
 }
 
 .lots__heading {
-  margin-left: 40px;
   margin-bottom: 27px;
+  margin-left: 40px;
   color: #000;
-  font-size: 40px;
-  font-style: normal;
   font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
   line-height: normal;
   text-transform: uppercase;
 }
 
 .lots__card-list {
   display: flex;
-  list-style: none;
-  gap: 25px;
   flex-flow: wrap;
+  gap: 25px;
+  list-style: none;
 }
 
 .lots__card-list-item {
+  flex-grow: 1;
   flex-basis: 430px;
   min-height: 450px;
-  flex-grow: 1;
 }
 
 .card-link {
@@ -205,108 +200,104 @@
 }
 
 .card {
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 
 .card_type_film {
-  background-image: url('../images/card-lot-01.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-
   /* To place the overlay on top of the background image. */
 
   position: relative;
   z-index: -2;
+  background-image: url('../images/card-lot-01.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card_type_book {
-  background-image: url('../images/card-lot-02.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-
   /* To place the overlay on top of the background image. */
 
   position: relative;
   z-index: -2;
+  background-image: url('../images/card-lot-02.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card_type_picture {
-  background-image: url('../images/card-lot-03.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-
   /* To place the overlay on top of the background image. */
 
   position: relative;
   z-index: -2;
+  background-image: url('../images/card-lot-03.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card__title {
+  margin: 50px 40px 0;
   color: #fff;
-  font-size: 22px;
-  font-style: normal;
   font-weight: 700;
+  font-style: normal;
+  font-size: 22px;
   line-height: 120%;
+  text-transform: uppercase;
   text-decoration-line: underline;
   text-underline-offset: 0.14em;
-  text-transform: uppercase;
-  margin: 50px 40px 0;
 }
 
 .card__text {
-  color: #fff;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
   margin: 0 40px 50px;
+  color: #fff;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 120%;
 }
 
 .lots__look-more-link {
   display: block;
-  color: #000;
   margin-top: 30px;
-  margin-left: 40px;
   margin-bottom: 2px;
-  font-size: 20px;
-  font-style: normal;
+  margin-left: 40px;
+  color: #000;
   font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
   line-height: normal;
   text-underline-offset: 0.25em;
 }
 
 .about {
-  height: 487px;
-  margin: 181px 50px 180px 50px;
   display: grid;
-  gap: 25px;
-  grid-template-columns: repeat(3, 1fr);
   grid-template-areas: 'about_logo about_column about_column';
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  height: 487px;
+  margin: 181px 50px 180px;
 }
 
 .about__logo {
-  grid-area: about_logo;
-  align-self: start;
-  justify-self: center;
-  height: 240px;
-  width: 240px;
-  border-radius: 50%;
-  background-color: #000;
-
   /* To center the about_logo image. */
 
   display: flex;
-  align-items: center;
+  grid-area: about_logo;
   justify-content: center;
+  align-items: center;
+  align-self: start;
+  justify-self: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000;
 }
 
 .about__logo-image {
   display: block;
-  height: 114px;
   width: 148px;
+  height: 114px;
   margin: auto;
 }
 
@@ -317,13 +308,13 @@
 }
 
 .about__title {
+  margin-bottom: 100px;
   color: #000;
-  font-size: 40px;
-  font-style: normal;
   font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
   line-height: normal;
   text-transform: uppercase;
-  margin-bottom: 100px;
 }
 
 .about__text {
@@ -331,18 +322,18 @@
   flex-direction: column;
   gap: 27px;
   color: #000;
-  font-size: 20px;
-  font-style: normal;
   font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
   line-height: normal;
 }
 
 .footer {
-  margin: 180px 50px 90px;
   display: flex;
   flex-direction: row;
-  align-items: start;
   justify-content: space-between;
+  align-items: start;
+  margin: 180px 50px 90px;
 }
 
 .footer__menu-list {
@@ -362,17 +353,16 @@
 .footer__menu-link {
   color: #000;
   font-size: 18px;
-
-  text-underline-offset: 0.25em;
   white-space: nowrap;
+  text-underline-offset: 0.25em;
 }
 
 .footer__social-list {
-  width: 240px;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  width: 240px;
   list-style: none;
 }
 
@@ -387,4 +377,5 @@
 }
 
 /* TODO: Разбить по словам Аукцион вещей */
+
 /* TODO: При уменьшении размера слово тебе должно сдвигаться?  */
