@@ -4,7 +4,7 @@
     "selector-class-pattern": [
       "^([_a-z][a-z0-9]*)(_{2}[a-z0-9]+)?([_-][a-z0-9]+)*$",
       {
-        "message": "Expected class selector to be kebab-case with available {prefix}_..._"
+        "message": "Expected class selector to be mix of kebab-case and snake-case with available {prefix}__"
       }
     ],
   }
