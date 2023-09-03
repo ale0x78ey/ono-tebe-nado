@@ -1,3 +1,9 @@
+body {
+  background-image: url('../images/main.png');
+  background-size: cover;
+  opacity: 0.6;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -138,7 +144,12 @@
   font-size: 22px;
   line-height: normal;
   text-transform: uppercase;
-  word-spacing: 0.85em;
+  word-spacing: 0.775em;
+  white-space: nowrap;
+}
+
+.cover__description-text-last-word {
+  word-spacing: 1em;
 }
 
 .bet-button {
