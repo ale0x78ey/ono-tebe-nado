@@ -363,9 +363,9 @@ body {
 .footer__social-list {
   display: flex;
   flex-direction: row;
+  gap: 48px;
   justify-content: space-between;
   align-items: center;
-  width: 240px;
   list-style: none;
 }
 
