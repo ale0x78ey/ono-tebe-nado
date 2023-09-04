@@ -1,3 +1,8 @@
+body {
+  background-image: url('../images/main.png');
+  opacity: 0.6;
+}
+
 .header {
   position: relative;
   display: flex;
@@ -25,6 +30,10 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.header__menu-list-item_no-bullit::before {
+  content: none;
 }
 
 .header__menu-link {
