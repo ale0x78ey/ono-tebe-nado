@@ -1,5 +1,7 @@
 body {
   background-image: url('../images/main.png');
+  background-position: cover;
+  background-repeat: no-repeat;
   opacity: 0.6;
 }
 
@@ -154,24 +156,20 @@ body {
   line-height: normal;
   text-transform: uppercase;
   white-space: nowrap;
-  word-spacing: 0.775em;
-}
-
-.cover__description-text-last-word {
-  word-spacing: 1em;
+  word-spacing: 0.85em;
 }
 
 .bet-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 257px;
-  height: 52px;
-  border: 1px solid #fff;
-}
-
-.no-word-spacing {
-  word-spacing: normal;
+  padding: 12px 33px;
+  border: 1px solid;
+  background-color: transparent;
+  color: #fff;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: normal;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .lots {
