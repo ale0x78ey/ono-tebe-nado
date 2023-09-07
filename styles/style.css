@@ -78,7 +78,7 @@ body {
 
 .cover {
   position: relative;
-  margin-bottom: 180px;
+  padding: 50px;
   background-image: url('../images/cover.jpg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -94,7 +94,7 @@ body {
 .cover__title {
   display: flex;
   flex-direction: column;
-  margin: 0 50px;
+  margin-top: 115px;
   color: #fff;
   font-weight: 700;
   font-style: normal;
@@ -109,7 +109,6 @@ body {
   display: inline-flex;
   justify-content: start;
   align-items: center;
-  margin-top: 165px;
   line-height: 115%;
 }
 
@@ -143,7 +142,7 @@ body {
   gap: 78px;
   justify-content: end;
   align-items: center;
-  margin: 126px 50px 50px;
+  margin-top: 126px;
 }
 
 .cover__description-text {
@@ -173,8 +172,7 @@ body {
 }
 
 .lots {
-  min-height: 579px;
-  margin: 180px 50px 181px;
+  margin: 180px 50px 0;
 }
 
 .lots__heading {
