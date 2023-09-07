@@ -18,23 +18,11 @@ body {
   flex-direction: row;
   grid-area: header_menu;
   gap: 13px;
+  list-style: circle inside;
+}
+
+.header__menu-list-item_no-bullit {
   list-style-type: none;
-}
-
-.header__menu-list-item::before {
-  content: '';
-  display: inline-block;
-  width: 7px;
-  height: 7px;
-  margin-right: 9px;
-  background-image: url('../images/list_marker.svg');
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.header__menu-list-item_no-bullit::before {
-  content: none;
 }
 
 .header__menu-link {
