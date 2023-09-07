@@ -206,8 +206,8 @@ body {
 }
 
 .card {
-  display: flex;
   position: relative;
+  display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
@@ -268,8 +268,8 @@ body {
   grid-template-areas: 'about_logo about_column about_column';
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
-  margin: 181px 50px 180px;
   align-items: start;
+  margin: 181px 50px 180px;
 }
 
 .about__logo {
@@ -277,11 +277,11 @@ body {
   grid-area: about_logo;
   justify-content: center;
   align-items: center;
+  justify-self: center;
   width: 240px;
   height: 240px;
   border-radius: 50%;
   background-color: #000;
-  justify-self: center;
 }
 
 .about__logo-image {
@@ -298,14 +298,14 @@ body {
 }
 
 .about__title {
+  margin-top: 100px;
+  margin-bottom: 100px;
   color: #000;
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
   line-height: normal;
   text-transform: uppercase;
-  margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .about__text {
@@ -316,7 +316,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 20px;
-  line-height: normal;
+  line-height: 1.19;
 }
 
 .footer {
@@ -324,7 +324,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: start;
-  margin: 180px 50px 90px;
+  margin: 185px 50px 90px;
 }
 
 .footer__address {
